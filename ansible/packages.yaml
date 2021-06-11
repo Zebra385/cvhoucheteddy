@@ -18,7 +18,7 @@
        - libpq-dev
        - rdiff-backup
        - libpq-dev
-       - python-psycopg2
+       - psycopg2-binary
        - uwsgi
        - uwsgi-plugin-python
        - nginx
