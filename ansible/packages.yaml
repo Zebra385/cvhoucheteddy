@@ -18,9 +18,8 @@
        - libpq-dev
        - rdiff-backup
        - libpq-dev
-       - psycopg2-binary
+       - python3-psycopg2-binary
        - uwsgi
-       - uwsgi-plugin-python
        - nginx
        - gunicorn
        - supervisor
