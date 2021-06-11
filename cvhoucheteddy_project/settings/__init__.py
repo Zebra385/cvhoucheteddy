@@ -78,9 +78,9 @@ DATABASES = {
         # We use the adaptater for postgresqlpostgresql
         'ENGINE': 'django.db.backends.postgresql',
         # The name of database xhose is create befor
-        'NAME': 'db_cvht',
+        'NAME': 'db_cv',
         # The user must be replave by your own name
-        'USER': 'zebra385',
+        'USER': 'zebra3',
         'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432',

@@ -7,8 +7,8 @@ all:
         home_dir: /home/zebra3
         repo_dir: "{{ home_dir }}/{{ repo }}"
         django_dir: "{{ repo_dir }}/cvhoucheteddy"
-        static_dir: "{{ home_dir }}/static"
+        static_dir: "{{ home_dir }}/cvhoucheteddy_project/static"
         django_project: cvhoucheteddy_project
         dbname: db_cv
-        dbuser: zebra385
+        dbuser: zebra3
         dbpassword: "{{ lookup('password', 'postgresqlpasswd') }}"
