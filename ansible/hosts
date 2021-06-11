@@ -1,0 +1,14 @@
+all:
+    hosts:
+        cvserver
+    vars:
+        repo_url: ssh://git@github.com:Zebra385/
+        repo: cvhoucheteddy
+        home_dir: /home/zebra3
+        repo_dir: "{{ home_dir }}/{{ repo }}"
+        django_dir: "{{ repo_dir }}/cvhoucheteddy"
+        static_dir: "{{ home_dir }}/static"
+        django_project: cvhoucheteddy_project
+        dbname: db_cv
+        dbuser: zebra385
+        dbpassword: "{{ lookup('password', 'postgresqlpasswd') }}"

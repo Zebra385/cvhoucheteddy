@@ -1,5 +1,4 @@
 from django.views.generic.base import TemplateView
-import datetime
 
 
 # Create your views here.

@@ -1,5 +1,5 @@
 from .views import AccueilView, Portfolio1View
-from django.urls import path, include
+from django.urls import path
 
 app_name = "cv"
 

@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.urls import reverse
-from .views import AccueilView
+
 
 class AccueilPageTestCase(TestCase):
     """
