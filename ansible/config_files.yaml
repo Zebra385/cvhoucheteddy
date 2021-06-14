@@ -16,3 +16,7 @@
     - name: uwsgi restart
       service: name=uwsgi state=restarted
       when: uwsgi_config.changed
+    - name: Simple gunicorn run example
+      community.general.gunicorn:
+      app: 'wsgi'
+      chdir: '/workspace/example'
