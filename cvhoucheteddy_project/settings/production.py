@@ -1,15 +1,23 @@
 from . import *
-# Parse database configuration from $DATABASE_URL
-import dj_database_url
-from os import environ
+
 
 from .base import *
 DEBUG="False"
 
-ALLOWED_HOSTS = ['64.227.117.38']
+ALLOWED_HOSTS = ['']
 
 DATABASES = {
-    'default': dj_database_url.config()
+    'default': {
+        # We use the adaptater for postgresqlpostgresql
+        'ENGINE': 'django.db.backends.postgresql',
+        # The name of database xhose is create befor
+        'NAME': 'db_cvth',
+        # The user must be replave by your own name
+        'USER': 'zebra3',
+        'PASSWORD': '',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
 }
 
 STATIC_ROOT = environ['STATIC_ROOT']

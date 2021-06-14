@@ -25,7 +25,7 @@ SECRET_KEY = 'yc9^nr=&*5k#=2o-$s$87g(k1u#lkb@%gg=qk5#t%b$t7ha9wt'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['64.227.117.38']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
@@ -78,9 +78,9 @@ DATABASES = {
         # We use the adaptater for postgresqlpostgresql
         'ENGINE': 'django.db.backends.postgresql',
         # The name of database xhose is create befor
-        'NAME': 'db_cv',
+        'NAME': 'db_cvht',
         # The user must be replave by your own name
-        'USER': 'zebra3',
+        'USER': 'zebra385',
         'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '5432',

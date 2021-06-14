@@ -128,3 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
+# setting production
+cvhoucheteddy/cvhoucheteddy_project/settings/production.py
